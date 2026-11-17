@@ -1,0 +1,1592 @@
+{
+    "schemaVersion": 1,
+    "revision": 1,
+    "builtAt": "2026-11-17T18:00:00Z",
+    "source": "Google Sheet 1XB5H3-iEuPs8dkf03AYLXDw_fwKjF_Z_0lypwydDJso tab 'Unit pharse 2' A1:N65, read 2026-11-17 sheet sha256 6a8cba225497; base sha256 bd1c70327e02",
+    "progression": {
+        "levelCap": 5,
+        "expPerLevel": 1000,
+        "expDamageFactor": 500.0,
+        "expKillBonus": 100,
+        "rebuyStepPerLevel": 0.25
+    },
+    "gacha": {
+        "pullCostRed": 100,
+        "cardsPerPull": 5,
+        "tierWeights": [
+            {
+                "tier": "N",
+                "weight": 40.0
+            },
+            {
+                "tier": "R",
+                "weight": 35.0
+            },
+            {
+                "tier": "SR",
+                "weight": 20.0
+            },
+            {
+                "tier": "SSR",
+                "weight": 5.0
+            }
+        ],
+        "shardWeights": [
+            {
+                "amount": 1,
+                "weight": 20.0
+            },
+            {
+                "amount": 2,
+                "weight": 20.0
+            },
+            {
+                "amount": 3,
+                "weight": 20.0
+            },
+            {
+                "amount": 4,
+                "weight": 20.0
+            },
+            {
+                "amount": 5,
+                "weight": 20.0
+            }
+        ],
+        "multipliers": [
+            {
+                "multiplier": 1,
+                "costBlue": 0
+            },
+            {
+                "multiplier": 2,
+                "costBlue": 2
+            },
+            {
+                "multiplier": 3,
+                "costBlue": 5
+            }
+        ],
+        "pityPulls": 10,
+        "pityTier": "SSR",
+        "pityShards": 5,
+        "tiers": [
+            {
+                "tier": "N",
+                "unlockShards": 0,
+                "stars": 0,
+                "sellRedPerShard": 1,
+                "sellShardsPerBlue": 0
+            },
+            {
+                "tier": "R",
+                "unlockShards": 20,
+                "stars": 3,
+                "sellRedPerShard": 2,
+                "sellShardsPerBlue": 0
+            },
+            {
+                "tier": "SR",
+                "unlockShards": 50,
+                "stars": 4,
+                "sellRedPerShard": 5,
+                "sellShardsPerBlue": 0
+            },
+            {
+                "tier": "SSR",
+                "unlockShards": 100,
+                "stars": 5,
+                "sellRedPerShard": 0,
+                "sellShardsPerBlue": 20
+            }
+        ]
+    },
+    "heroes": [
+        {
+            "id": "3",
+            "name": "3",
+            "kind": "hero",
+            "tier": "N",
+            "ownedByDefault": true,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 5,
+            "price": 175,
+            "maxHp": 200,
+            "dmgMin": 50,
+            "dmgMax": 55,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 2,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "Base DMG (implicit)",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "1",
+            "name": "1",
+            "kind": "hero",
+            "tier": "N",
+            "ownedByDefault": true,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 350,
+            "maxHp": 200,
+            "dmgMin": 35,
+            "dmgMax": 40,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "Base DMG (implicit)",
+                    "values": []
+                },
+                {
+                    "level": 1,
+                    "slot": "active",
+                    "effect": "h1.active.lv1",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Hồi sinh 1 đơn vị tử trận thành skeleton",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "active",
+                    "effect": "h1.active.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: Hồi máu cho 1 đơn vị +20HP",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "active",
+                    "effect": "h1.active.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: Hồi sinh 1 đơn vị tử trận quay lại trận đấu, mỗi hero tử trận chỉ được hồi sinh tối đa 2 ( vì có thể mua tối đa 2 hero_1) lần trong suốt trận đấu ( không thể hồi sinh cho King)",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "5",
+            "kind": "hero",
+            "tier": "N",
+            "ownedByDefault": true,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 5,
+            "price": 150,
+            "maxHp": 200,
+            "dmgMin": 40,
+            "dmgMax": 45,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "Base DMG (implicit)",
+                    "values": []
+                },
+                {
+                    "level": 1,
+                    "slot": "action",
+                    "effect": "capture_house",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "Chiếm nhà",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "101",
+            "name": "101",
+            "kind": "hero",
+            "tier": "R",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 400,
+            "maxHp": 220,
+            "dmgMin": 40,
+            "dmgMax": 45,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h101.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: sau khi kết thúc giao tranh enemy A, +1 enemy đứng trong phạm vi 3x3 với enemy A cũng sẽ chịu  50% DMG của hero vừa gây ra cho enemy A. Nếu có nhiều hơn 1 enemy trong phạm vi 3x3 của enemy A thì sẽ chọn enemy có HP thấp nhất",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h101.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: tương tự như lv2, nhưng +2 enemy phải gánh chịu và DMG phải nhận = 80%",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "102",
+            "name": "102",
+            "kind": "hero",
+            "tier": "R",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 3,
+            "price": 250,
+            "maxHp": 220,
+            "dmgMin": 45,
+            "dmgMax": 50,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 2,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h102.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: slow down: enemy -1DM next turn",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h102.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: lockdown: enemy không thể di chuyển next turn",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "103",
+            "name": "103",
+            "kind": "hero",
+            "tier": "R",
+            "ownedByDefault": true,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 500,
+            "maxHp": 220,
+            "dmgMin": 60,
+            "dmgMax": 65,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 15,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 6,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "h103.attack.lv1",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 6,
+                    "exclusiveGroup": "",
+                    "text": "lv1: nhiễm độc: enemy -10%DMG, -10%DEF next turn",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h103.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 6,
+                    "exclusiveGroup": "",
+                    "text": "lv3: nhiễm độc: enemy -15%DMG, -15%DEF next turn",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "104",
+            "name": "104",
+            "kind": "hero",
+            "tier": "R",
+            "ownedByDefault": true,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 600,
+            "maxHp": 220,
+            "dmgMin": 60,
+            "dmgMax": 70,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 30,
+            "defGrowth": 0,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "active",
+                    "effect": "h104.active.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: +150% DEF turn hiện tại",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "passive",
+                    "effect": "h104.passive.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: +150% DMG, -50% DEF",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "0",
+            "name": "0",
+            "kind": "hero",
+            "tier": "R",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 1,
+            "price": 650,
+            "maxHp": 250,
+            "dmgMin": 55,
+            "dmgMax": 60,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 10,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 2,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h0.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: Base DMG, giảm 30% - 50% DEF enemy next turn",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h0.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: tụ lực và bắn liên tiếp 5 loạt đạn về phía enemy, mỗi viên đạn gây = 15%DMG",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "500",
+            "name": "500",
+            "kind": "hero",
+            "tier": "SR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 550,
+            "maxHp": 230,
+            "dmgMin": 40,
+            "dmgMax": 50,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 2,
+            "levelCap": 0,
+            "modifiers": [
+                {
+                    "stat": "move",
+                    "add": 1.0,
+                    "perLevel": false,
+                    "condition": "terrain:water",
+                    "text": "+1 nếu ở mặt nước"
+                }
+            ],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h500.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: bão tuyết: tạo 1 cơn bão tuyết gây 10%DMG/0.5s, tồn tại 5s, đồng thời -1DM",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h500.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: quả cầu băng: tụ 1 quả cầu băng gây 150%DMG, lockdown next turn của enemy ( đóng băng )",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "501",
+            "name": "501",
+            "kind": "hero",
+            "tier": "SR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 575,
+            "maxHp": 240,
+            "dmgMin": 50,
+            "dmgMax": 60,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 2,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 2,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h501.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: bắn 2 loạt đạn gây 65% DMG/ viên",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h501.attack.lv5",
+                    "rangeMin": 2,
+                    "rangeMax": 4,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv5: siêu cấp bắn tỉa: gây 120/135/150% DMG với enemy cách 4/3/2 đơn vị khoảng cách, đồng thời giảm 10/20/30% DEF",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "508",
+            "name": "508",
+            "kind": "hero",
+            "tier": "SR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 1,
+            "price": 700,
+            "maxHp": 250,
+            "dmgMin": 60,
+            "dmgMax": 65,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 7,
+            "defGrowth": 2,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h508.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: +150% DMG",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h508.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 3,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: +150% base DMG, tạo 1 lốc xoáy gây 10%DMG/0.5s, tồn tại 5s",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "502",
+            "name": "502",
+            "kind": "hero",
+            "tier": "SR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 1,
+            "price": 1000,
+            "maxHp": 270,
+            "dmgMin": 65,
+            "dmgMax": 75,
+            "dmgGrowth": 1,
+            "dmgGrowthEvery": 1,
+            "def": 30,
+            "defGrowth": 1,
+            "defGrowthEvery": 2,
+            "move": 4,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h502.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv3: +150% DMG, đồng thời -2DM emeny next turn",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h502.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv5: +150% base DMG, cầm búa xoay quanh quanh bản thân gây 15%DMG/0.5s, xoay 5s, -1DM enemy next turn",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "503",
+            "name": "503",
+            "kind": "hero",
+            "tier": "SR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 500,
+            "maxHp": 220,
+            "dmgMin": 35,
+            "dmgMax": 40,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 10,
+            "defGrowth": 2,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "Base DMG (implicit)",
+                    "values": []
+                },
+                {
+                    "level": 1,
+                    "slot": "passive",
+                    "effect": "h503.passive.lv1",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: ban phước: +110%DMG và DEF cho 1-2 đồng minh lân cận ( 2 trong 9 trong phạm vi 3x3, ưu tiên hero có lượng sát thương từ cao - thấp) sau khi kết thúc giao tranh/ di chuyển",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "passive",
+                    "effect": "h503.passive.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: ban phước: +120%DMG và DEF cho 1-4 đồng minh lân cận ( 4 trong 9 trong phạm vi 3x3, ưu tiên hero có lượng sát thương từ cao - thấp) sau khi kết thúc giao tranh/ di chuyển",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "passive",
+                    "effect": "h503.passive.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: ban phước: +130%DMG và DEF cho 1-6 đồng minh lân cận trong phạm vi 3x3 sau khi kết thúc giao tranh/ di chuyển, ưu tiên hero có lượng sát thương từ cao - thấp",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "504",
+            "name": "504",
+            "kind": "hero",
+            "tier": "SR",
+            "ownedByDefault": true,
+            "inGachaPool": true,
+            "isKing": true,
+            "leavesTombstone": false,
+            "buyLimit": 1,
+            "price": 300,
+            "maxHp": 250,
+            "dmgMin": 55,
+            "dmgMax": 65,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 15,
+            "defGrowth": 2,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [
+                {
+                    "stat": "def",
+                    "add": 5.0,
+                    "perLevel": false,
+                    "condition": "building:castle",
+                    "text": "+5 nếu ở trong lâu đài"
+                }
+            ],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "action",
+                    "effect": "capture_castle_house",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "cướp lâu đài/ nhà",
+                    "values": []
+                },
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h504.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: tụ lực: +130% DMG",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h504.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: airBlade: +150% DMG, -10%DEF của enemy next turn",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "509",
+            "name": "509",
+            "kind": "hero",
+            "tier": "SR",
+            "ownedByDefault": true,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 800,
+            "maxHp": 270,
+            "dmgMin": 50,
+            "dmgMax": 70,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 10,
+            "defGrowth": 2,
+            "defGrowthEvery": 1,
+            "move": 4,
+            "rangeMin": 1,
+            "rangeMax": 2,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "action",
+                    "effect": "destroy_house",
+                    "rangeMin": 3,
+                    "rangeMax": 5,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "phá hủy nhà đối phương",
+                    "values": []
+                },
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv1: Base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h509.attack.lv3",
+                    "rangeMin": 2,
+                    "rangeMax": 4,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv3: +150% DMG, chỉ di chuyển hoặc tấn công trong 1 lượt, không thể di chuyển xong tấn công",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h509.attack.lv5",
+                    "rangeMin": 3,
+                    "rangeMax": 5,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv5: +170% DMG, chỉ di chuyển hoặc tấn công trong 1 lượt, không thể di chuyển xong tấn công, -10DEF và -2DM enemy next turn",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "510",
+            "name": "510",
+            "kind": "hero",
+            "tier": "SR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 600,
+            "maxHp": 230,
+            "dmgMin": 55,
+            "dmgMax": 60,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 2,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 2,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "Base DMG (implicit)",
+                    "values": []
+                },
+                {
+                    "level": 1,
+                    "slot": "active",
+                    "effect": "h510.active.lv1",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: ăn nấm: +20HP cho bản thân, không vượt max HP",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h510.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: bắn 2 loạt đạn gây 55% DMG/ viên",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h510.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: bắn 2 loạt đạn gây 65% DMG/ viên",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "1003",
+            "name": "1003",
+            "kind": "hero",
+            "tier": "SSR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 1,
+            "price": 1200,
+            "maxHp": 300,
+            "dmgMin": 60,
+            "dmgMax": 70,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 30,
+            "defGrowth": 1,
+            "defGrowthEvery": 2,
+            "move": 7,
+            "rangeMin": 1,
+            "rangeMax": 3,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 3,
+                    "move": 7,
+                    "exclusiveGroup": "",
+                    "text": "lv1: base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h1003.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 3,
+                    "move": 7,
+                    "exclusiveGroup": "",
+                    "text": "lv3: bắn liên tiếp 5 quả tên lửa 75% DMG/quả về enemy",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h1003.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 7,
+                    "exclusiveGroup": "1003.lv5",
+                    "text": "lv5: sóng xung kích: tạo 1 lớp sóng xung kích gây 50%DMG/0.5s trong 5s",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "active",
+                    "effect": "h1003.active.lv5",
+                    "rangeMin": 0,
+                    "rangeMax": 0,
+                    "move": 7,
+                    "exclusiveGroup": "1003.lv5",
+                    "text": "lv5: từ trường: tạo 1 lớp từ trường +150% DEF next turn cho đồng minh xung quanh và bản thân phạm vi 3x3",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "1004",
+            "name": "1004",
+            "kind": "hero",
+            "tier": "SSR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 750,
+            "maxHp": 320,
+            "dmgMin": 60,
+            "dmgMax": 70,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 30,
+            "defGrowth": 1,
+            "defGrowthEvery": 2,
+            "move": 6,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 6,
+                    "exclusiveGroup": "",
+                    "text": "lv1: base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h1004.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 6,
+                    "exclusiveGroup": "",
+                    "text": "lv3: base DMG, giảm 30% DEF enemy next turn",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h1004.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 6,
+                    "exclusiveGroup": "",
+                    "text": "lv5: base DMG, giảm 50% DEF enemy next turn",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "1008",
+            "name": "1008",
+            "kind": "hero",
+            "tier": "SSR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 2,
+            "price": 750,
+            "maxHp": 280,
+            "dmgMin": 55,
+            "dmgMax": 65,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 4,
+            "rangeMin": 1,
+            "rangeMax": 2,
+            "levelCap": 0,
+            "modifiers": [
+                {
+                    "stat": "hpRegen",
+                    "add": 1.0,
+                    "perLevel": true,
+                    "condition": "always",
+                    "text": "+1*lv HP/ turn, không quá máu tối đa"
+                },
+                {
+                    "stat": "dmg",
+                    "add": 5.0,
+                    "perLevel": false,
+                    "condition": "terrain:water",
+                    "text": "+5 khi ở môi trường nước"
+                },
+                {
+                    "stat": "def",
+                    "add": 10.0,
+                    "perLevel": false,
+                    "condition": "terrain:water",
+                    "text": "+10 khi ở môi trường nước"
+                },
+                {
+                    "stat": "move",
+                    "add": 2.0,
+                    "perLevel": false,
+                    "condition": "terrain:water",
+                    "text": "+2 khi ở môi trường nước"
+                }
+            ],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv1: base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h1008.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv3: base DMG, -1DM enemy next turn",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h1008.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 2,
+                    "move": 4,
+                    "exclusiveGroup": "",
+                    "text": "lv5: base DMG, -10% DMG/DEF, -1DM enemy next turn",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "1012",
+            "name": "1012",
+            "kind": "hero",
+            "tier": "SSR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 1,
+            "price": 1000,
+            "maxHp": 250,
+            "dmgMin": 60,
+            "dmgMax": 65,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 10,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv1: base DMG",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h1012.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv3: base DMG, khiến enemy chảy máu và chịu thêm 10% DMG",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h1012.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "lv5: gây 15%DMG/0.5s trong 3s đồng thời không nhận bất kỳ sát thương AOE nào từ enemy gây ra ( cận chiến gây bình thường )",
+                    "values": []
+                }
+            ]
+        },
+        {
+            "id": "1013",
+            "name": "1013",
+            "kind": "hero",
+            "tier": "SSR",
+            "ownedByDefault": false,
+            "inGachaPool": true,
+            "isKing": false,
+            "leavesTombstone": true,
+            "buyLimit": 1,
+            "price": 1100,
+            "maxHp": 250,
+            "dmgMin": 60,
+            "dmgMax": 65,
+            "dmgGrowth": 2,
+            "dmgGrowthEvery": 1,
+            "def": 10,
+            "defGrowth": 1,
+            "defGrowthEvery": 1,
+            "move": 6,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": 0,
+            "modifiers": [
+                {
+                    "stat": "def",
+                    "add": 5.0,
+                    "perLevel": false,
+                    "condition": "terrain:mountain",
+                    "text": "+5 nếu vào địa hình núi"
+                }
+            ],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "h1013.attack.lv1",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 6,
+                    "exclusiveGroup": "",
+                    "text": "lv1: nhiễm độc: enemy -10%DMG, -10%DEF next turn",
+                    "values": []
+                },
+                {
+                    "level": 3,
+                    "slot": "attack",
+                    "effect": "h1013.attack.lv3",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 6,
+                    "exclusiveGroup": "",
+                    "text": "lv3: nhiễm độc: enemy -15%DMG, -15%DEF next turn",
+                    "values": []
+                },
+                {
+                    "level": 5,
+                    "slot": "attack",
+                    "effect": "h1013.attack.lv5",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 6,
+                    "exclusiveGroup": "",
+                    "text": "lv5: nhiễm độc: enemy -20%DMG, -20%DEF next turn, gây 15%DMG/0.5s trong 3s",
+                    "values": []
+                }
+            ]
+        }
+    ],
+    "summons": [
+        {
+            "id": "skeleton",
+            "name": "Skeleton",
+            "kind": "summon",
+            "tier": "",
+            "ownedByDefault": false,
+            "inGachaPool": false,
+            "isKing": false,
+            "leavesTombstone": false,
+            "buyLimit": -1,
+            "price": -1,
+            "maxHp": 150,
+            "dmgMin": 35,
+            "dmgMax": 40,
+            "dmgGrowth": 3,
+            "dmgGrowthEvery": 1,
+            "def": 5,
+            "defGrowth": 2,
+            "defGrowthEvery": 1,
+            "move": 5,
+            "rangeMin": 1,
+            "rangeMax": 1,
+            "levelCap": -1,
+            "modifiers": [],
+            "skills": [
+                {
+                    "level": 1,
+                    "slot": "attack",
+                    "effect": "base",
+                    "rangeMin": 1,
+                    "rangeMax": 1,
+                    "move": 5,
+                    "exclusiveGroup": "",
+                    "text": "Base DMG (implicit)",
+                    "values": []
+                }
+            ]
+        }
+    ],
+    "enemies": [],
+    "buildings": [
+        {
+            "id": "castle",
+            "income": 50,
+            "heal": 20,
+            "healsAnySide": false,
+            "defense": 15,
+            "useTerrain": false,
+            "moveCost": 1,
+            "capturable": true,
+            "kingOnly": true,
+            "recruitSite": true,
+            "destructible": false,
+            "ruinedId": "",
+            "text": "D95: King chiếm; tuyển quân; 50 vàng, hồi 20 HP đầu lượt chủ."
+        },
+        {
+            "id": "house",
+            "income": 50,
+            "heal": 20,
+            "healsAnySide": false,
+            "defense": 15,
+            "useTerrain": false,
+            "moveCost": 1,
+            "capturable": true,
+            "kingOnly": false,
+            "recruitSite": false,
+            "destructible": true,
+            "ruinedId": "house_ruined",
+            "text": "D95: Soldier/King chiếm; 509 phá thành nhà đổ."
+        },
+        {
+            "id": "house_ruined",
+            "income": 0,
+            "heal": 0,
+            "healsAnySide": false,
+            "defense": 0,
+            "useTerrain": false,
+            "moveCost": 1,
+            "capturable": false,
+            "kingOnly": false,
+            "recruitSite": false,
+            "destructible": false,
+            "ruinedId": "",
+            "text": "D95: Soldier/King Sửa thành nhà trung lập; không thuế/hồi."
+        },
+        {
+            "id": "temple",
+            "income": 0,
+            "heal": 20,
+            "healsAnySide": true,
+            "defense": 15,
+            "useTerrain": false,
+            "moveCost": 1,
+            "capturable": false,
+            "kingOnly": false,
+            "recruitSite": false,
+            "destructible": false,
+            "ruinedId": "",
+            "text": "D95: hồi 20 HP quân đứng trên ở đầu lượt phe quân đó."
+        },
+        {
+            "id": "barracks",
+            "income": 0,
+            "heal": 0,
+            "healsAnySide": false,
+            "defense": 0,
+            "useTerrain": true,
+            "moveCost": 1,
+            "capturable": false,
+            "kingOnly": false,
+            "recruitSite": false,
+            "destructible": false,
+            "ruinedId": "",
+            "text": "D145: campaign không chiếm/phá/thu/hồi; đi-thủ theo nền."
+        }
+    ],
+    "terrains": [
+        {
+            "id": "road",
+            "defense": 0,
+            "moveCost": 1,
+            "blocksMovement": false
+        },
+        {
+            "id": "grass",
+            "defense": 5,
+            "moveCost": 1,
+            "blocksMovement": false
+        },
+        {
+            "id": "forest",
+            "defense": 10,
+            "moveCost": 2,
+            "blocksMovement": false
+        },
+        {
+            "id": "mountain",
+            "defense": 15,
+            "moveCost": 3,
+            "blocksMovement": false
+        },
+        {
+            "id": "water",
+            "defense": 0,
+            "moveCost": 4,
+            "blocksMovement": false
+        }
+    ],
+    "missions": []
+}
